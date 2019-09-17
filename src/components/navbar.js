@@ -1,46 +1,52 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from "./image"
 
-const Header = () => (
+const Navbar = () => (
   <header
     style={{
-      background: `white`,
-      
+      background: `#006738`,
+      marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         padding: `0.5rem 1.0875rem`,
+        display: 'flex',
+        justifyContent: 'flex-end'
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#c4996c`,
             textDecoration: `none`,
-            
           }}
         >
-          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`,marginLeft: 'auto',
-            marginRight: 'auto' }}>
-            <Image />
-          </div>
+          Home
+        </Link>
+        <Link
+          to="/"
+          style={{
+            color: `#c4996c`,
+            textDecoration: `none`,
+          }}
+        >
+          Home
         </Link>
       </h1>
     </div>
   </header>
 )
 
-Header.propTypes = {
+Navbar.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Navbar.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Navbar

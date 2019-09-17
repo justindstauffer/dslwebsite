@@ -9,12 +9,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>DS Landscape & Maintenance, Inc. has been serving Central Florida since 1991. We provide complete residential and commercial landscaping solutions for property owners and managers. We are a full service residential and commercial landscaping and maintenance company that provides personalized attention, creativity, and quality workmanship which creates and builds lasting relationships! <br></br><br></br>
+
+Our Orlando, Florida based landscaping company is fully licensed and insured. We offer State-of-the-art equipment and management systems. DS Landcape & Maintenance employs a well-trained, licensed, uniformed, English-speaking, and professional staff.<br></br>
+
+We maintain a wide variety of commercial properties to include: homeowner associations, condominiums, apartments, educational facilities, retail shopping centers, multi-family developments, hotels, office buildings, industrial parks, retirement communities, county municipalities, and residential properties.<br></br></p>
+    
   </Layout>
 )
 

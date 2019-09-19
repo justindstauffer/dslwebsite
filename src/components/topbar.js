@@ -5,7 +5,7 @@ import React from "react"
 const Topbar = () => (
   <header
     style={{
-      background: `white`,
+      background: `#c4996c, 0.0`,
       //   borderBottom: '1px solid #E70069'
     }}
   >
@@ -21,7 +21,7 @@ const Topbar = () => (
         <a href="tel:407-671-4800">
           <button style={{
             background: '#E70069',
-            color: '#006738',
+            color: 'black',
             border: '1px solid #E70069',
             borderRadius: '6px',
             padding: '4px'

@@ -17,9 +17,9 @@ const Bottombar = () => (
         justifyContent: 'center',
       }}
     >
-      <h5 style={{ margin: 0 }}>
+      <p style={{ margin: 0, fontSize: 11 }}>
       COPYRIGHT © 2019 DS Landscaping & Maintenance Inc.
-      </h5>
+      </p>
     </div>
   </header>
 )

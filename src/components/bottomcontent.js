@@ -1,4 +1,4 @@
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -27,13 +27,60 @@ const BottomContent = () => (
                 </h5>
             </div>
             <div><h5>DS Landscape & Maintenance, Inc. <br></br>
-                    P.O. Box 180455 <br></br>
-                    Casselberry, FL. 32718
+                P.O. Box 180455 <br></br>
+                Casselberry, FL. 32718
                 </h5></div>
-            <div><h5>DS Landscape & Maintenance, Inc. <br></br>
-                    P.O. Box 180455 <br></br>
-                    Casselberry, FL. 32718
-                </h5></div>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+                alignItems: 'center'
+            }}>
+                <h1 style={{ margin: '5px 0' }}>
+                    <Link
+                        to="/"
+                        style={{
+                            color: `#c4996c`,
+                            textDecoration: `none`,
+                        }}
+                    >
+                        Home
+                    </Link>
+                </h1>
+                <h1 style={{ margin: '5px 0' }}>
+                    <Link
+                        to="/"
+                        style={{
+                            color: `#c4996c`,
+                            textDecoration: `none`,
+                        }}
+                    >
+                        Services
+                    </Link>
+                </h1>
+                <h1 style={{ margin: '5px 0' }}>
+                    <Link
+                        to="/"
+                        style={{
+                            color: `#c4996c`,
+                            textDecoration: `none`,
+                        }}
+                    >
+                        Contact
+                    </Link>
+                </h1>
+                <h1 style={{ margin: '5px 0' }}>
+                    <Link
+                        to="/"
+                        style={{
+                            color: `#E70069`,
+                            textDecoration: `none`,
+                        }}
+                    >
+                        Careers
+                    </Link>
+                </h1>
+            </div>
         </div>
     </header>
 )

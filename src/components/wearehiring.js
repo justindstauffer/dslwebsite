@@ -7,7 +7,6 @@ const WeAreHiring = () => (
     style={{
       background: `#006738`,
       marginBottom: `1.45rem`,
-      border: '3px solid #E70069'
     }}
   >
     <div
@@ -20,10 +19,10 @@ const WeAreHiring = () => (
         flexWrap: 'wrap'
       }}
     >
-      <h1 style={{ margin: 0, color: '#E70069' }}>
+      <h1 style={{ margin: 0, color: 'black' }}>
         Now Hiring!
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0,padding: '0.2rem' , border: '3px solid #E70069' }}>
         <Link
           to="/"
           style={{

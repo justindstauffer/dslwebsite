@@ -14,7 +14,6 @@ import Header from "./header"
 import Navbar from "./navbar"
 import Bottombar from "./bottombar"
 import BottomContent from "./bottomcontent"
-import WeAreHiring from "./wearehiring"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -33,7 +32,6 @@ const Layout = ({ children }) => {
       {/* <Topbar /> */}
       <Header  />
       <Navbar />
-      <WeAreHiring />
       <div
         style={{
           margin: `0 auto`,

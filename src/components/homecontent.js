@@ -76,6 +76,7 @@ const HomeContent = () => (
                 </form>
             </div>
         </div>
+                
     </div>
 )
 

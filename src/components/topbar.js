@@ -20,7 +20,7 @@ const Topbar = () => (
       <h1 style={{ margin: 0 }}>
         <a href="tel:407-671-4800">
           <button style={{
-            background: '#E70069',
+            background: 'White',
             color: 'black',
             border: '1px solid #E70069',
             borderRadius: '6px',

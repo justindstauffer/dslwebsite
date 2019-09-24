@@ -12,7 +12,6 @@ const Navbar = () => (
       alignItems: "center",
       marginBottom: `1.45rem`,
       paddingBottom: '2px',
-      boxShadow: '0px -2px 2px 0px white inset'
     }}
   >
     <div>

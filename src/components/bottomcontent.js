@@ -7,7 +7,6 @@ const BottomContent = () => (
     style={{
       background: `#006738`,
       //   borderBottom: '1px solid #E70069'
-      boxShadow: "0px 2px 2px 0px white inset",
     }}
   >
     <div

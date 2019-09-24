@@ -9,7 +9,7 @@ const HomeServices = () => (
   <div
     style={{
       width: "100%",
-      background: "radial-gradient(white, #006738)",
+      background: "#006738",
       
       //   borderBottom: '1px solid #E70069'
     }}

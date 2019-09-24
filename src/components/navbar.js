@@ -6,15 +6,24 @@ const Navbar = () => (
   <header
     style={{
       background: `#006738`,
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'space-around',
-      alignItems: 'center',
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-around",
+      alignItems: "center",
       marginBottom: `1.45rem`,
+      paddingBottom: '2px',
+      boxShadow: '0px -2px 2px 0px white inset'
     }}
   >
     <div>
-      <h1 style={{ margin: 0, padding: '0.2rem', border: '3px solid #E70069', textAlign: 'center', }}>
+      <h1
+        style={{
+          margin: 0,
+          padding: "0.2rem",
+          border: "3px solid #E70069",
+          textAlign: "center",
+        }}
+      >
         <Link
           to="/"
           style={{
@@ -29,10 +38,10 @@ const Navbar = () => (
     <div
       style={{
         margin: `0 auto`,
-        width: '600px',
+        width: "600px",
         padding: `0.5rem 1.0875rem`,
-        display: 'flex',
-        justifyContent: 'space-between',
+        display: "flex",
+        justifyContent: "space-between",
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -69,7 +78,6 @@ const Navbar = () => (
         </Link>
       </h1>
     </div>
-
   </header>
 )
 

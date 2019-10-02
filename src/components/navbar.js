@@ -15,29 +15,6 @@ const Navbar = () => (
       paddingBottom: '2px',
     }}
   >
-<<<<<<< HEAD
-=======
-    <div>
-      <h1
-        style={{
-          margin: 0,
-          padding: "0.2rem",
-          border: "3px solid #E70069",
-          textAlign: "center",
-        }}
-      >
-        <Link
-          to="/"
-          style={{
-            color: `#E70069`,
-            textDecoration: `none`,
-          }}
-        >
-          Apply Here
-        </Link>
-      </h1>
-    </div>
->>>>>>> 69a22b9c124422320e536e59920997659a7475ad
     <div
       style={{
         margin: `0 auto`,

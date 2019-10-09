@@ -23,7 +23,7 @@ const Header = () => (
     >
       <Topbar />      
 
-      <h1 style={{ marginTop: '-30px', marginBottom: 0, marginLeft: 0 }}>
+      <h1 style={{ marginTop: '-30px', }}>
         <Link
           to="/"
           style={{

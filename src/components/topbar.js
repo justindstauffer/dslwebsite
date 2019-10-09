@@ -12,7 +12,7 @@ const Topbar = () => (
     <div
       style={{
         margin: `0 auto`,
-        padding: `0.5rem 1.0875rem`,
+        padding: `0.5rem 0.0875rem`,
         display: 'flex',
         justifyContent: 'flex-end',
       }}

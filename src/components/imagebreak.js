@@ -9,6 +9,7 @@ const ImageBreak = () => (
       backgroundImage: `url(${Background})`,
       backgroundSize: 'cover',
       height: '400px',
+      
     }}
   >
     <div

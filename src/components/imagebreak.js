@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Background from "../images/landscape3.1.png"
+import Background from "../images/lakehouse.png"
 
 const ImageBreak = () => (
   <header

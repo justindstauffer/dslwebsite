@@ -11,7 +11,7 @@ const Navbar = () => (
       flexDirection: "row",
       justifyContent: "space-around",
       alignItems: "center",
-      marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
       paddingBottom: '2px',
     }}
   >
@@ -19,38 +19,38 @@ const Navbar = () => (
       style={{
         margin: `0 auto`,
         width: "600px",
-        padding: `0.5rem 1.0875rem`,
+        padding: `0.75rem 1.0875rem`,
         display: "flex",
         justifyContent: "space-between",
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
-            color: `#c4996c`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >
           Home
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
-            color: `#c4996c`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >
           Services
         </Link>
       </h1>
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
-            color: `#c4996c`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >

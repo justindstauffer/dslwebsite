@@ -1,20 +1,20 @@
 // import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import RequestAQuote from "../components/requestaquote"
+// import RequestAQuote from "../components/requestaquote"
 
 const HomeContent = () => (
   <div
     style={{
       width: "100%",
-      background: "linear-gradient(to bottom, white, #c4996c66)",
+      background: "white",
       //   borderBottom: '1px solid #E70069'
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        padding: `0.5rem 1.0875rem`,
+        padding: `1.5rem 1.0875rem`,
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-around",
@@ -24,31 +24,34 @@ const HomeContent = () => (
     >
       <div
         style={{
-          maxWidth: "600px",
+          maxWidth: "900px",
+          textAlign: 'center',
+          marginBottom: '1rem'
         }}
       >
-        <h1>Orlando Landscaping and Maintenance</h1>
+        <h1 style={{
+          fontSize: '2.25rem'
+        }}>Orlando Landscaping and Lawn Maintenance</h1>
         <p>
           DS Landscape & Maintenance, Inc. has been serving Central Florida
           since 1991. Providing complete residential and commercial landscaping
           solutions for property owners and managers. Personalizing attention,
-          creativity, and design to build immaculate properties second to none.{" "}
-          <br></br>
-          <br></br>
-          Fully licensed and insured, offering state-of-the-art equipment and
-          practices. A well-trained staff who are licensed, insured, and
-          professional bring the highest quality of workmanship to each and
-          every property.<br></br>
-          <br></br>
+          creativity, and design to build immaculate properties.{" "}
+          
         </p>
+        <button style={{
+          borderRadius: '6px',
+          background: '#E70069',
+          padding: '10px'
+        }}>Request a Quote</button>
       </div>
-      <div
+      {/* <div
         style={{
           maxWidth: "600px",
         }}
       >
         <RequestAQuote />
-      </div>
+      </div> */}
     </div>
   </div>
 )

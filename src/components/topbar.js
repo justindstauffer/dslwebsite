@@ -22,7 +22,22 @@ const Topbar = () => (
           <button style={{
             background: 'White',
             color: 'black',
-            border: '1px solid #E70069',
+            border: '2px solid #E70069',
+            borderRadius: '6px',
+            padding: '4px',
+            marginRight: '10px'
+          }}>
+            Now Hiring
+          </button>
+        </a>
+
+      </h1>
+      <h1 style={{ margin: 0 }}>
+        <a href="tel:407-671-4800">
+          <button style={{
+            background: 'White',
+            color: 'black',
+            border: '2px solid #E70069',
             borderRadius: '6px',
             padding: '4px'
           }}>

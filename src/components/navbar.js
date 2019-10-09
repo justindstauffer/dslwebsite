@@ -27,10 +27,10 @@ const Navbar = () => (
         justifyContent: "space-around",
       }}
     >
-      
+
       <h1 
       id='navbarItems'
-      style={{ margin: 0, fontSize: '1.5rem' }}>
+      style={{ margin: 0, fontSize: '1.0rem' }}>
         <Link
           to="/"
           style={{
@@ -43,7 +43,7 @@ const Navbar = () => (
       </h1>
       <h1 
       id='navbarItems'
-      style={{ margin: 0, fontSize: '1.5rem' }}>
+      style={{ margin: 0, fontSize: '1.0rem' }}>
         <Link
           to="/"
           style={{
@@ -56,7 +56,7 @@ const Navbar = () => (
       </h1>
       <h1 
       id='navbarItems'
-      style={{ margin: 0, fontSize: '1.5rem' }}>
+      style={{ margin: 0, fontSize: '1.0rem' }}>
         <Link
           to="/"
           style={{
@@ -69,7 +69,7 @@ const Navbar = () => (
       </h1>
       <h1 
       id='navbarItems'
-      style={{ margin: 0, fontSize: '1.5rem' }}>
+      style={{ margin: 0, fontSize: '1.0rem' }}>
         <Link
           to="/"
           style={{
@@ -82,7 +82,7 @@ const Navbar = () => (
       </h1>
       <h1 
       id='navbarItems'
-      style={{ margin: 0, fontSize: '1.5rem' }}>
+      style={{ margin: 0, fontSize: '1.0rem' }}>
         <Link
           to="/"
           style={{

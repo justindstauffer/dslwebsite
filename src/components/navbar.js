@@ -13,18 +13,23 @@ const Navbar = () => (
       alignItems: "center",
       // marginBottom: `1.45rem`,
       paddingBottom: '2px',
+      paddingLeft: '50px',
+      paddingRight: '50px'
     }}
   >
     <div
+      
       style={{
         margin: `0 auto`,
-        width: "600px",
+        width: "100%",
         padding: `0.75rem 1.0875rem`,
         display: "flex",
-        justifyContent: "space-between",
+        justifyContent: "space-around",
       }}
     >
-      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
+      <h1 
+      id='navbarItems'
+      style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
@@ -35,7 +40,9 @@ const Navbar = () => (
           Home
         </Link>
       </h1>
-      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
+      <h1 
+      id='navbarItems'
+      style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
@@ -46,7 +53,35 @@ const Navbar = () => (
           Services
         </Link>
       </h1>
-      <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
+      <h1 
+      id='navbarItems'
+      style={{ margin: 0, fontSize: '1.5rem' }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          FAQs
+        </Link>
+      </h1>
+      <h1 
+      id='navbarItems'
+      style={{ margin: 0, fontSize: '1.5rem' }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Reviews
+        </Link>
+      </h1>
+      <h1 
+      id='navbarItems'
+      style={{ margin: 0, fontSize: '1.5rem' }}>
         <Link
           to="/"
           style={{
@@ -57,7 +92,9 @@ const Navbar = () => (
           Contact
         </Link>
       </h1>
+      
     </div>
+    
   </header>
 )
 

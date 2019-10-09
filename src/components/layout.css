@@ -615,8 +615,12 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 100%;
   }
+  #navbarItems {
+    display: none !important;
+  }
 }
+

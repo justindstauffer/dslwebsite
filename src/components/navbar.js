@@ -1,10 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
+import MenuIcon from "./menuicon"
 
 const Navbar = () => (
   <header
+    id='menuBar'
     style={{
       background: `#006738`,
       display: "flex",
@@ -18,7 +19,7 @@ const Navbar = () => (
     }}
   >
     <div
-      
+      id='menuDiv'
       style={{
         margin: `0 auto`,
         width: "100%",
@@ -93,7 +94,13 @@ const Navbar = () => (
           Contact
         </Link>
       </h1>
-      
+      <div 
+      id='menuIcon'
+      style={{
+        width: '32px'
+      }}>
+        <MenuIcon />
+      </div>
     </div>
     
   </header>

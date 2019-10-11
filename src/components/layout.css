@@ -615,11 +615,27 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+#menuIcon {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   html {
     font-size: 100%;
   }
   #navbarItems {
+    display: none !important;
+  }
+  #menuIcon {
+    display: block;
+    margin-left: auto;
+  }
+  #menuBar {
+    padding: 0 !important;
+  }
+  #menuDiv {
+    padding: 0.45rem 0.775rem !important;
+  }
+  #nowHiring {
     display: none !important;
   }
 }

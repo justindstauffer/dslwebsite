@@ -3,12 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
 import Topbar from "./topbar"
-// import Background from "../images/lakehouse.jpg"
+import Background from "../images/landscape3.1.png"
 
 const Header = () => (
   <header
     style={{
-      // backgroundImage: `url(${Background})`,
+      backgroundImage: `url(${Background})`,
       backgroundSize: 'cover',
 
     }}
@@ -18,7 +18,7 @@ const Header = () => (
       style={{
         margin: `0 auto`,
         padding: `0.5rem 1.0875rem`,
-        // background: 'linear-gradient(to right, white 1%, transparent)'
+        background: 'linear-gradient(to right, white 1%, transparent)'
       }}
     >
       <Topbar />      

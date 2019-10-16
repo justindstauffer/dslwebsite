@@ -36,11 +36,13 @@ const HomeContent = () => (
           DS Landscape & Maintenance, Inc. has been serving Central Florida
           since 1991. Providing complete residential and commercial landscaping
           solutions for property owners and managers. Personalizing attention,
-          creativity, and design to build immaculate properties.{" "}
+          creativity, and design to build immaculate properties. Contact us today for
+          a free quote on your next landscaping project!{" "}
           
         </p>
         <button style={{
           borderRadius: '6px',
+          border: '2px solid #006738',
           background: '#E70069',
           padding: '10px'
         }}>Request a Quote</button>

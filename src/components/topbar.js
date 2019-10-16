@@ -19,7 +19,7 @@ const Topbar = () => (
         borderRadius: "10px",
       }}
     >
-      <h1 
+      {/* <h1 
       id='nowHiring'
       style={{ margin: 0 }}>
         <a href="tel:407-671-4800">
@@ -36,7 +36,7 @@ const Topbar = () => (
             Now Hiring
           </button>
         </a>
-      </h1>
+      </h1> */}
       <h1 style={{ margin: 0 }}>
         <a href="tel:407-671-4800">
           <button

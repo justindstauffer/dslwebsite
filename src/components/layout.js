@@ -11,7 +11,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 // import Topbar from "./topbar"
-import Navbar from "./navbar"
+// import Navbar from "./navbar"
 import Bottombar from "./bottombar"
 import BottomContent from "./bottomcontent"
 import "./layout.css"
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
     <>
       {/* <Topbar /> */}
       <Header  />
-      <Navbar />
+      {/* <Navbar /> */}
       <div
         style={{
           margin: `0 auto`,

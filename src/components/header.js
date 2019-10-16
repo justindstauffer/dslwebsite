@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
 import Topbar from "./topbar"
-import Background from "../images/hardscape1.jpg"
+import Background from "../images/hardscape1.png"
 import Navbar from "./navbar"
 
 const Header = () => (

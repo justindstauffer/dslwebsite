@@ -1,3 +1,6 @@
+# DS Landscaping Website
+This website is developed using React and GatsbyJS. Connecting Gatsby and Netlify allows for this site to be updated through any pushes to this git repo. Highly recommend Gatsby if you have not tried it.
+--------------------------------------------------------------------
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
